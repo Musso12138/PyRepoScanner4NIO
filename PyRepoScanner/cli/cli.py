@@ -7,7 +7,6 @@ import json
 import logging
 from PyRepoScanner.utils.minio_utils import *
 import PyRepoScanner.utils.log_utils as prs_log
-from PyRepoScanner.parser.pypi.project import PypiProject
 from PyRepoScanner.scanner.pypi.scanner import PypiScanner
 from PyRepoScanner.monitor.pypi.monitor import PypiMonitor
 
