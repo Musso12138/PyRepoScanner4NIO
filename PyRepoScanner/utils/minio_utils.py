@@ -82,5 +82,11 @@ class MinioClient:
         try:
             _ = self.client.stat_object(bucket_name, object_name)
             return True
-        except minio.error.InvalidResponseError:
+        # except minio.error.InvalidResponseError as e:
+        #     if e._code == "NoSuchKey":
+        #         return False
+        # except minio.error.S3Error as e:
+        #     if e._code == "NoSuchKey":
+        #         return False
+        except Exception as e:
             return False
