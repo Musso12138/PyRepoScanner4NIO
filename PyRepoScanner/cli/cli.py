@@ -129,14 +129,3 @@ def scan_cli(ctx, file_path, file_rule_path, rule_path, output_filepath):
             json.dump(results, out_f)
     else:
         scanner.print_results_beautiful(results)
-
-
-# 专门用于测试一些接口
-@cli.command("test")
-def test():
-    begin = time.time()
-    # mc = PypiMinioClient()
-    # mc.upload_file("./sample/packages/beautifulsoup4-4.12.2-py3-none-any.whl", "test111")
-    scanner = PypiScanner
-    print(time.time() - begin)
-
