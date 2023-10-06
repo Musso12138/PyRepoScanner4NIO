@@ -4,8 +4,6 @@ beautifulsoup4==4.11.1
 click==8.0.4
 minio==7.1.15
 pymongo==4.5.0
-PyYAML==6.0
 PyYAML==6.0.1
 Requests==2.31.0
-urllib3==1.23
 urllib3==1.26.9
