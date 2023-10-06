@@ -1,0 +1,124 @@
+id: "0002"
+type: encoder
+taints:
+  - accordance: function
+    function: base64.encode
+    position: ret
+  - accordance: function
+    function: base64.encodebytes
+    position: ret
+  - accordance: function
+    function: base64.encodestring
+    position: ret
+  - accordance: function
+    function: base64.b16encode
+    position: ret
+  - accordance: function
+    function: base64.b32encode
+    position: ret
+  - accordance: function
+    function: base64.b32hexencode
+    position: ret
+  - accordance: function
+    function: base64.b64encode
+    position: ret
+  - accordance: function
+    function: base64.standard_b64encode
+    position: ret
+  - accordance: function
+    function: base64.urlsafe_b64encode
+    position: ret
+  - accordance: function
+    function: base64.a85encode
+    position: ret
+  - accordance: function
+    function: base64.b85encode
+    position: ret
+
+  - accordance: function
+    function: codecs.encode
+    position: ret
+  - accordance: function
+    function: codecs.charmap_encode
+    position: ret
+  - accordance: function
+    function: codecs.oem_encode
+    position: ret
+  - accordance: function
+    function: codecs.mbcs_encode
+    position: ret
+  - accordance: function
+    function: codecs.ascii_encode
+    position: ret
+  - accordance: function
+    function: codecs.code_page_encode
+    position: ret
+  - accordance: function
+    function: codecs.escape_encode
+    position: ret
+  - accordance: function
+    function: codecs.latin_1_encode
+    position: ret
+  - accordance: function
+    function: codecs.raw_unicode_escape_encode
+    position: ret
+  - accordance: function
+    function: codecs.unicode_escape_encode
+    position: ret
+  - accordance: function
+    function: codecs.unicode_internal_encode
+    position: ret
+  - accordance: function
+    function: codecs.utf_7_encode
+    position: ret
+  - accordance: function
+    function: codecs.utf_8_encode
+    position: ret
+  - accordance: function
+    function: codecs.utf_16_be_encode
+    position: ret
+  - accordance: function
+    function: codecs.utf_16_encode
+    position: ret
+  - accordance: function
+    function: codecs.utf_16_ex_encode
+    position: ret
+  - accordance: function
+    function: codecs.utf_16_le_encode
+    position: ret
+  - accordance: function
+    function: codecs.utf_32_encode
+    position: ret
+  - accordance: function
+    function: codecs.utf_32_be_encode
+    position: ret
+  - accordance: function
+    function: codecs.utf_32_ex_encode
+    position: ret
+  - accordance: function
+    function: codecs.utf_32_le_encode
+    position: ret
+  - accordance: function
+    function: codecs.iterencode
+    position: ret
+
+  - accordance: function
+    function: binascii.b2a_hex
+    position: ret
+  - accordance: function
+    function: binascii.b2a_base64
+    position: ret
+  - accordance: function
+    function: binascii.b2a_qp
+    position: ret
+  - accordance: function
+    function: binascii.b2a_uu
+    position: ret
+  - accordance: function
+    function: binascii.b2a_hqx
+    position: ret
+
+  - accordance: function
+    function: zlib.compress
+    position: ret
+

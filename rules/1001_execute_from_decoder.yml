@@ -1,0 +1,15 @@
+id: "1001"
+name: execute-command
+template: call of "{SINK}" detected for executing commands decoded by "{TAINT}"
+taints:
+  - accordance: id
+    id: "0003"
+    type: decoder
+    severity: 10
+    confidence: 10
+sinks:
+  - accordance: id
+    id: "0001"
+    type: command-execution
+    severity: 7
+    confidence: 7

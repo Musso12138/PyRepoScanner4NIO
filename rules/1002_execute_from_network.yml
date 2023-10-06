@@ -1,0 +1,15 @@
+id: "1002"
+name: execute-command
+template: call of "{SINK}" detected for executing commands received from network by "{TAINT}"
+taints:
+  - accordance: id
+    id: "0004"
+    type: network-receiver
+    severity: 10
+    confidence: 10
+sinks:
+  - accordance: id
+    id: "0001"
+    type: command-execution
+    severity: 7
+    confidence: 7

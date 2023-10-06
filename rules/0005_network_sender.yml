@@ -1,0 +1,122 @@
+id: "0005"
+type: network-sender
+sinks:
+  - accordance: function
+    function: requests.request
+    position: 1
+    keyword: url
+  - accordance: function
+    function: requests.request
+    keyword: params
+  - accordance: function
+    function: requests.request
+    keyword: data
+  - accordance: function
+    function: requests.request
+    keyword: json
+  - accordance: function
+    function: requests.request
+    keyword: cookies
+  - accordance: function
+    function: requests.get
+    position: 0
+    keyword: url
+  - accordance: function
+    function: requests.get
+    position: 1
+    keyword: params
+  - accordance: function
+    function: requests.get
+    keyword: data
+  - accordance: function
+    function: requests.get
+    keyword: json
+  - accordance: function
+    function: requests.get
+    keyword: cookies
+  - accordance: function
+    function: requests.post
+    position: 0
+    keyword: url
+  - accordance: function
+    function: requests.post
+    position: 1
+    keyword: data
+  - accordance: function
+    function: requests.post
+    position: 2
+    keyword: json
+  - accordance: function
+    function: requests.post
+    keyword: params
+  - accordance: function
+    function: requests.post
+    keyword: cookies
+  - accordance: function
+    function: requests.put
+    position: 0
+    keyword: url
+  - accordance: function
+    function: requests.put
+    position: 1
+    keyword: data
+  - accordance: function
+    function: requests.put
+    keyword: json
+  - accordance: function
+    function: requests.put
+    keyword: params
+  - accordance: function
+    function: requests.put
+    keyword: cookies
+  - accordance: function
+    function: requests.patch
+    position: 0
+    keyword: url
+  - accordance: function
+    function: requests.patch
+    position: 1
+    keyword: data
+  - accordance: function
+    function: requests.patch
+    keyword: json
+  - accordance: function
+    function: requests.patch
+    keyword: params
+  - accordance: function
+    function: requests.patch
+    keyword: cookies
+
+  - accordance: function
+    function: urllib.request.urlopen
+    position: 0
+    keyword: url
+  - accordance: function
+    function: urllib.request.urlopen
+    position: 1
+    keyword: data
+  - accordance: function
+    function: urllib.request.urlretrieve
+    position: 0
+    keyword: url
+  - accordance: function
+    function: urllib.request.urlretrieve
+    position: 3
+    keyword: data
+
+  - accordance: function
+    function: aiohttp.request
+    position: 1
+    keyword: url
+  - accordance: function
+    function: aiohttp.request
+    keyword: params
+  - accordance: function
+    function: aiohttp.request
+    keyword: data
+  - accordance: function
+    function: aiohttp.request
+    keyword: json
+  - accordance: function
+    function: aiohttp.request
+    keyword: cookies

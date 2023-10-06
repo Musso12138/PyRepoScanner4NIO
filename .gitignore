@@ -1,0 +1,13 @@
+.idea/
+.git/
+.DS_Store
+test.py
+**/__pycache__/
+**/.pytest_cache/
+
+*.log
+logs/*
+!logs/.gitkeep
+
+**/tmp/*
+!**/tmp/.gitkeep

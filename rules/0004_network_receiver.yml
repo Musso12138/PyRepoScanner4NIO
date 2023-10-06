@@ -1,0 +1,21 @@
+id: "0004"
+type: network-receiver
+taints:
+  - accordance: function
+    function: requests.get
+    position: ret
+
+  - accordance: function
+    function: urllib.request.urlopen
+    position: ret
+  - accordance: function
+    function: urllib.request.urlretrieve
+    position: ret
+  - accordance: function
+    function: urllib.request.urlretrieve
+    position: 1
+    keyword: filename
+
+  - accordance: function
+    function: aiohttp.request
+    position: ret

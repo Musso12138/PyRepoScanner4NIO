@@ -1,0 +1,9 @@
+id: "0007"
+type: file-operation
+taints:
+  - accordance: function
+    function: open
+    position: ret
+  - accordance: function
+    function: builtins.open
+    position: ret

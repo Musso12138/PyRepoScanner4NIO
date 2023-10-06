@@ -1,0 +1,14 @@
+id: "1000"
+name: execute-command
+template: call of "{SINK}" detected for executing commands
+taints:
+  - accordance: type
+    type: "*"
+    severity: 7
+    confidence: 7
+sinks:
+  - accordance: id
+    id: "0001"
+    type: command-execution
+    severity: 7
+    confidence: 7

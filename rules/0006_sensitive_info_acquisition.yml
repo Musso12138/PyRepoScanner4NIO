@@ -1,0 +1,35 @@
+id: "0006"
+type: sensitive-info-acquisition
+taints:
+  - accordance: function
+    function: socket.gethostname
+    position: ret
+
+  - accordance: function
+    function: os.getlogin
+    position: ret
+  - accordance: function
+    function: os.getuid
+    position: ret
+  - accordance: function
+    function: os.getgid
+    position: ret
+  - accordance: function
+    function: os.getgroups
+    position: ret
+  - accordance: function
+    function: os.getcwd
+    position: ret
+  - accordance: function
+    function: os.getcwdb
+    position: ret
+  - accordance: function
+    function: os.getenv
+    position: ret
+  - accordance: attribute
+    attribute: os.environ
+    position: ret
+
+  - accordance: function
+    function: getpass.getuser
+    position: ret

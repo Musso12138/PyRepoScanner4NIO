@@ -1,0 +1,57 @@
+id: "0001"
+type: command-execution
+sinks:
+  - accordance: function
+    function: eval
+    position: 0
+  - accordance: function
+    function: builtins.eval
+    position: 0
+  - accordance: function
+    function: exec
+    position: 0
+  - accordance: function
+    function: builtins.exec
+    position: 0
+
+  - accordance: function
+    function: os.system
+    position: 0
+    keyword: command
+  - accordance: function
+    function: os.popen
+    position: 0
+    keyword: cmd
+
+  - accordance: function
+    function: subprocess.run
+    position: 0
+    keyword: args
+  - accordance: function
+    function: subprocess.Popen
+    position: 0
+    keyword: args
+  - accordance: function
+    function: subprocess.call
+    position: 0
+    keyword: args
+  - accordance: function
+    function: subprocess.check_call
+    position: 0
+    keyword: args
+  - accordance: function
+    function: subprocess.check_output
+    position: 0
+    keyword: args
+  - accordance: function
+    function: subprocess.getoutput
+    position: 0
+    keyword: cmd
+  - accordance: function
+    function: subprocess.getstatusoutput
+    position: 0
+    keyword: cmd
+
+  - accordance: function
+    function: pty.spawn
+    position: 0
